@@ -8,6 +8,7 @@ import Article from "../Article";
 import Category from "../Category";
 
 function App() {
+  // TODO: implement slug as ID
   return (
     <div className="App">
       <Nav />
