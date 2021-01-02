@@ -13,8 +13,8 @@ const Article = () => {
       {({ data: { article } }) => {
         const imageUrl =
           process.env.NODE_ENV !== "development"
-            ? article.image.url
-            : process.env.REACT_APP_BACKEND_URL + article.image.url;
+            ? article.image_url
+            : process.env.REACT_APP_BACKEND_URL + article.image_url;
         return (
           <div>
             <div
